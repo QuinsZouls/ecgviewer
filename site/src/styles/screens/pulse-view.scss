@@ -1,0 +1,42 @@
+.pulse-view-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .chart-view {
+      width: 70%;
+    }
+    .settings-view {
+      width: 30%;
+      min-height: 300px;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 10px;
+      input {
+        width: 100%;
+        border-radius: 10px;
+        height: 60px;
+        text-align: center;
+        border: 1px solid #f1f1f1;
+      }
+      .btn {
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        height: 60px;
+        border-radius: 10px;
+      }
+      .start {
+        background-color: #2ecc71;
+      }
+      .stop {
+        background-color: red;
+      }
+      .item {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
